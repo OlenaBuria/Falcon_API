@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Test Suite" configfailurepolicy="skip">
+  <listeners>
+    <listener
+      class-name="com.pearson.common.framework.web.listener.HtmlReportListener" />
+  </listeners>
+
+  <test name="Sample Test Cases" configfailurepolicy="skip">
+    <classes>
+      <class name="tests.SampleLoginTest" />
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Response token : eyJraWQiOiJrMTA2NS4xNTczMjIzMTI2IiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJmZmZmZmZmZjVmMTYzMDczNmM5ODI5MDFkNTc5NWZjMCIsImhjYyI6IlVTIiwidHlwZSI6ImF0IiwiZXhwIjoxNTk1OTc4OTMzLCJpYXQiOjE1OTU5NjgxMzIsInNlc3NpZCI6IjYyYmExMTliLTZjZGMtNGJiMy05MGYzLTQxZjg4OWIyZDE4YyJ9.N-WXwhOdcnjYkDNOviQwnYOItCjVjz1xxFjH-z-vMFS5r9c-qe6qf4BNbMISYGxt-5ZpW64Jvw95UtUW9UE1WydOG_-UlBCP202X8NuRywZKSFoSVQ2cG6YUWH1kBWsAD3disokwT2FDB9cbJVCbByvAp-SdwkKknKapDnD3lTVbgQZeBEmT_VhNJxjVX-X3f7H64Yy8dhaJi_jjMKB81mp3gnGRYMeAb-h_wX3ITjJ_dqCHSlhWbZTA9CkYaPGonQCVokUioDkUtgg02otRJMc_nHsEM_l7R2NeFlpunIVZHxtSww8gIXYN-DXIjhdcAJEJSsdpVxHNRoQaYkOrGg<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Response status : success<br/>]]>
+    </line>
+    <line>
+      <![CDATA[5f16318d928f77001a291464<br/>]]>
+    </line>
+    <line>
+      <![CDATA[DNT-in use for E2E test RFS-1491 STG : Elm-PUF OZ_<br/>]]>
+    </line>
+    <line>
+      <![CDATA[COMPLETED<br/>]]>
+    </line>
+    <line>
+      <![CDATA[ffffffff5f1630736c982901d5795fc0<br/>]]>
+    </line>
+    <line>
+      <![CDATA[ffffffff5f15315c6c982901d5795647<br/>]]>
+    </line>
+    <line>
+      <![CDATA[89d35a0e-fe52-4176-94aa-226414a4ecc0-fd06cc9e-fec0-4121-ab8f-9cb397bf2c79<br/>]]>
+    </line>
+    <line>
+      <![CDATA[DNT-in use for E2E test RFS-1491 STG : Elm-PUF OZ_CITE model Tiny Test<br/>]]>
+    </line>
+    <line>
+      <![CDATA[IN_PROGRESS<br/>]]>
+    </line>
+    <line>
+      <![CDATA[[{lastUpdatedTimestamp=1595290006639, assetId=urn:pearson:entity:3f725b28-0b58-4961-93aa-3ba6d13139e2, rubricId=d127de94-86b5-4800-8d0c-0e66c960e690, title=Self-reflection, assessmentId=urn:pearson:entity:c5650aa8-9eed-4fc4-809a-1befc5efa30c, assetType=reflection, status=NOT_STARTED, assessmentItemId=urn:pearson:entity:e7c22974-7a7e-4ce1-ad16-c6fe0c16eafd}, {lastUpdatedTimestamp=1595290006640, assetId=urn:pearson:entity:96733d53-1387-4550-8fc6-aaeea74c83ee, rubricId=d127de94-86b5-4800-8d0c-0e66c960e690, title=Feedback from Mentor, assetType=feedback, status=NOT_STARTED}, {lastUpdatedTimestamp=1595290006640, assetId=urn:pearson:entity:27a632be-71b2-445c-bb56-9d4051e018d6, rubricId=d127de94-86b5-4800-8d0c-0e66c960e690, title=Submission, assetType=submission, status=NOT_STARTED}]<br/>]]>
+    </line>
+    <line>
+      <![CDATA[projectSubmissionId: urn:pearson:entity:27a632be-71b2-445c-bb56-9d4051e018d6<br/>]]>
+    </line>
+    <line>
+      <![CDATA[projectSubmissionId: urn:pearson:entity:27a632be-71b2-445c-bb56-9d4051e018d6<br/>]]>
+    </line>
+    <line>
+      <![CDATA[sequence: 1<br/>]]>
+    </line>
+    <line>
+      <![CDATA[documentidUpdated: QApdf1595968136509<br/>]]>
+    </line>
+    <line>
+      <![CDATA[sequence: 1<br/>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7385" started-at="2020-07-28T20:28:50Z" finished-at="2020-07-28T20:28:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7385" started-at="2020-07-28T20:28:50Z" finished-at="2020-07-28T20:28:58Z">
+      <class name="tests.SampleDemoAPICollection">
+        <test-method status="PASS" signature="sample_piLogin()[pri:0, instance:tests.SampleDemoAPICollection@5f058f00]" name="sample_piLogin" duration-ms="2663" started-at="2020-07-28T20:28:50Z" finished-at="2020-07-28T20:28:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Response token : eyJraWQiOiJrMTA2NS4xNTczMjIzMTI2IiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJmZmZmZmZmZjVmMTYzMDczNmM5ODI5MDFkNTc5NWZjMCIsImhjYyI6IlVTIiwidHlwZSI6ImF0IiwiZXhwIjoxNTk1OTc4OTMzLCJpYXQiOjE1OTU5NjgxMzIsInNlc3NpZCI6IjYyYmExMTliLTZjZGMtNGJiMy05MGYzLTQxZjg4OWIyZDE4YyJ9.N-WXwhOdcnjYkDNOviQwnYOItCjVjz1xxFjH-z-vMFS5r9c-qe6qf4BNbMISYGxt-5ZpW64Jvw95UtUW9UE1WydOG_-UlBCP202X8NuRywZKSFoSVQ2cG6YUWH1kBWsAD3disokwT2FDB9cbJVCbByvAp-SdwkKknKapDnD3lTVbgQZeBEmT_VhNJxjVX-X3f7H64Yy8dhaJi_jjMKB81mp3gnGRYMeAb-h_wX3ITjJ_dqCHSlhWbZTA9CkYaPGonQCVokUioDkUtgg02otRJMc_nHsEM_l7R2NeFlpunIVZHxtSww8gIXYN-DXIjhdcAJEJSsdpVxHNRoQaYkOrGg<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Response status : success<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sample_piLogin -->
+        <test-method status="PASS" signature="getCourseId()[pri:0, instance:tests.SampleDemoAPICollection@5f058f00]" name="getCourseId" duration-ms="874" started-at="2020-07-28T20:28:53Z" depends-on-methods="tests.SampleDemoAPICollection.sample_piLogin" finished-at="2020-07-28T20:28:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[5f16318d928f77001a291464<br/>]]>
+            </line>
+            <line>
+              <![CDATA[DNT-in use for E2E test RFS-1491 STG : Elm-PUF OZ_<br/>]]>
+            </line>
+            <line>
+              <![CDATA[COMPLETED<br/>]]>
+            </line>
+            <line>
+              <![CDATA[ffffffff5f1630736c982901d5795fc0<br/>]]>
+            </line>
+            <line>
+              <![CDATA[ffffffff5f15315c6c982901d5795647<br/>]]>
+            </line>
+            <line>
+              <![CDATA[89d35a0e-fe52-4176-94aa-226414a4ecc0-fd06cc9e-fec0-4121-ab8f-9cb397bf2c79<br/>]]>
+            </line>
+            <line>
+              <![CDATA[DNT-in use for E2E test RFS-1491 STG : Elm-PUF OZ_CITE model Tiny Test<br/>]]>
+            </line>
+            <line>
+              <![CDATA[IN_PROGRESS<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCourseId -->
+        <test-method status="PASS" signature="getTaskList()[pri:0, instance:tests.SampleDemoAPICollection@5f058f00]" name="getTaskList" duration-ms="1634" started-at="2020-07-28T20:28:54Z" depends-on-methods="tests.SampleDemoAPICollection.sample_piLogin, tests.SampleDemoAPICollection.getCourseId" finished-at="2020-07-28T20:28:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[{lastUpdatedTimestamp=1595290006639, assetId=urn:pearson:entity:3f725b28-0b58-4961-93aa-3ba6d13139e2, rubricId=d127de94-86b5-4800-8d0c-0e66c960e690, title=Self-reflection, assessmentId=urn:pearson:entity:c5650aa8-9eed-4fc4-809a-1befc5efa30c, assetType=reflection, status=NOT_STARTED, assessmentItemId=urn:pearson:entity:e7c22974-7a7e-4ce1-ad16-c6fe0c16eafd}, {lastUpdatedTimestamp=1595290006640, assetId=urn:pearson:entity:96733d53-1387-4550-8fc6-aaeea74c83ee, rubricId=d127de94-86b5-4800-8d0c-0e66c960e690, title=Feedback from Mentor, assetType=feedback, status=NOT_STARTED}, {lastUpdatedTimestamp=1595290006640, assetId=urn:pearson:entity:27a632be-71b2-445c-bb56-9d4051e018d6, rubricId=d127de94-86b5-4800-8d0c-0e66c960e690, title=Submission, assetType=submission, status=NOT_STARTED}]<br/>]]>
+            </line>
+            <line>
+              <![CDATA[projectSubmissionId: urn:pearson:entity:27a632be-71b2-445c-bb56-9d4051e018d6<br/>]]>
+            </line>
+            <line>
+              <![CDATA[projectSubmissionId: urn:pearson:entity:27a632be-71b2-445c-bb56-9d4051e018d6<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTaskList -->
+        <test-method status="PASS" signature="getLearnerSubmission()[pri:0, instance:tests.SampleDemoAPICollection@5f058f00]" name="getLearnerSubmission" duration-ms="546" started-at="2020-07-28T20:28:55Z" depends-on-methods="tests.SampleDemoAPICollection.getTaskList" finished-at="2020-07-28T20:28:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[sequence: 1<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getLearnerSubmission -->
+        <test-method status="PASS" signature="modifySubmission()[pri:0, instance:tests.SampleDemoAPICollection@5f058f00]" name="modifySubmission" duration-ms="564" started-at="2020-07-28T20:28:56Z" depends-on-methods="tests.SampleDemoAPICollection.getLearnerSubmission" finished-at="2020-07-28T20:28:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[documentidUpdated: QApdf1595968136509<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifySubmission -->
+        <test-method status="PASS" signature="checkUpdatedProjectSubmission()[pri:0, instance:tests.SampleDemoAPICollection@5f058f00]" name="checkUpdatedProjectSubmission" duration-ms="537" started-at="2020-07-28T20:28:57Z" depends-on-methods="tests.SampleDemoAPICollection.modifySubmission" finished-at="2020-07-28T20:28:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[sequence: 1<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkUpdatedProjectSubmission -->
+        <test-method status="PASS" signature="deleteSubmission()[pri:0, instance:tests.SampleDemoAPICollection@5f058f00]" name="deleteSubmission" duration-ms="530" started-at="2020-07-28T20:28:57Z" depends-on-methods="tests.SampleDemoAPICollection.checkUpdatedProjectSubmission" finished-at="2020-07-28T20:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSubmission -->
+      </class> <!-- tests.SampleDemoAPICollection -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

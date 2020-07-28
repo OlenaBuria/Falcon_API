@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.SampleDemoAPICollection" hash-for-method="checkUpdatedProjectSubmission">checkUpdatedProjectSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.SampleDemoAPICollection" hash-for-method="deleteSubmission">deleteSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.SampleDemoAPICollection" hash-for-method="getCourseId">getCourseId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.SampleDemoAPICollection" hash-for-method="getLearnerSubmission">getLearnerSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.SampleDemoAPICollection" hash-for-method="getTaskList">getTaskList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.SampleDemoAPICollection" hash-for-method="modifySubmission">modifySubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.SampleDemoAPICollection" hash-for-method="sample_piLogin">sample_piLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SampleDemoAPICollection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUpdatedProjectSubmission">
+                  </a> <!-- checkUpdatedProjectSubmission -->
+                  <span class="method-name">checkUpdatedProjectSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteSubmission">
+                  </a> <!-- deleteSubmission -->
+                  <span class="method-name">deleteSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCourseId">
+                  </a> <!-- getCourseId -->
+                  <span class="method-name">getCourseId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLearnerSubmission">
+                  </a> <!-- getLearnerSubmission -->
+                  <span class="method-name">getLearnerSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTaskList">
+                  </a> <!-- getTaskList -->
+                  <span class="method-name">getTaskList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifySubmission">
+                  </a> <!-- modifySubmission -->
+                  <span class="method-name">modifySubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sample_piLogin">
+                  </a> <!-- sample_piLogin -->
+                  <span class="method-name">sample_piLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/jy/c_8z4ttn1tx3cyyf_wh7tzd40000gp/T/testng-eclipse--1939181333/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SampleDemoAPICollection&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'sample_piLogin')
+data.setCell(0, 2, 'tests.SampleDemoAPICollection')
+data.setCell(0, 3, 2663);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getTaskList')
+data.setCell(1, 2, 'tests.SampleDemoAPICollection')
+data.setCell(1, 3, 1634);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getCourseId')
+data.setCell(2, 2, 'tests.SampleDemoAPICollection')
+data.setCell(2, 3, 874);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'modifySubmission')
+data.setCell(3, 2, 'tests.SampleDemoAPICollection')
+data.setCell(3, 3, 564);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getLearnerSubmission')
+data.setCell(4, 2, 'tests.SampleDemoAPICollection')
+data.setCell(4, 3, 546);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkUpdatedProjectSubmission')
+data.setCell(5, 2, 'tests.SampleDemoAPICollection')
+data.setCell(5, 3, 537);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'deleteSubmission')
+data.setCell(6, 2, 'tests.SampleDemoAPICollection')
+data.setCell(6, 3, 530);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getLearnerSubmission</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">sequence: 1<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">modifySubmission</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">documentidUpdated: QApdf1595968136509<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getTaskList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[{lastUpdatedTimestamp=1595290006639, assetId=urn:pearson:entity:3f725b28-0b58-4961-93aa-3ba6d13139e2, rubricId=d127de94-86b5-4800-8d0c-0e66c960e690, title=Self-reflection, assessmentId=urn:pearson:entity:c5650aa8-9eed-4fc4-809a-1befc5efa30c, assetType=reflection, status=NOT_STARTED, assessmentItemId=urn:pearson:entity:e7c22974-7a7e-4ce1-ad16-c6fe0c16eafd}, {lastUpdatedTimestamp=1595290006640, assetId=urn:pearson:entity:96733d53-1387-4550-8fc6-aaeea74c83ee, rubricId=d127de94-86b5-4800-8d0c-0e66c960e690, title=Feedback from Mentor, assetType=feedback, status=NOT_STARTED}, {lastUpdatedTimestamp=1595290006640, assetId=urn:pearson:entity:27a632be-71b2-445c-bb56-9d4051e018d6, rubricId=d127de94-86b5-4800-8d0c-0e66c960e690, title=Submission, assetType=submission, status=NOT_STARTED}]<br/></span>
+                <span class="reporter-method-output">projectSubmissionId: urn:pearson:entity:27a632be-71b2-445c-bb56-9d4051e018d6<br/></span>
+                <span class="reporter-method-output">projectSubmissionId: urn:pearson:entity:27a632be-71b2-445c-bb56-9d4051e018d6<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sample_piLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response token : eyJraWQiOiJrMTA2NS4xNTczMjIzMTI2IiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJmZmZmZmZmZjVmMTYzMDczNmM5ODI5MDFkNTc5NWZjMCIsImhjYyI6IlVTIiwidHlwZSI6ImF0IiwiZXhwIjoxNTk1OTc4OTMzLCJpYXQiOjE1OTU5NjgxMzIsInNlc3NpZCI6IjYyYmExMTliLTZjZGMtNGJiMy05MGYzLTQxZjg4OWIyZDE4YyJ9.N-WXwhOdcnjYkDNOviQwnYOItCjVjz1xxFjH-z-vMFS5r9c-qe6qf4BNbMISYGxt-5ZpW64Jvw95UtUW9UE1WydOG_-UlBCP202X8NuRywZKSFoSVQ2cG6YUWH1kBWsAD3disokwT2FDB9cbJVCbByvAp-SdwkKknKapDnD3lTVbgQZeBEmT_VhNJxjVX-X3f7H64Yy8dhaJi_jjMKB81mp3gnGRYMeAb-h_wX3ITjJ_dqCHSlhWbZTA9CkYaPGonQCVokUioDkUtgg02otRJMc_nHsEM_l7R2NeFlpunIVZHxtSww8gIXYN-DXIjhdcAJEJSsdpVxHNRoQaYkOrGg<br/></span>
+                <span class="reporter-method-output">Response status : success<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkUpdatedProjectSubmission</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">sequence: 1<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getCourseId</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">5f16318d928f77001a291464<br/></span>
+                <span class="reporter-method-output">DNT-in use for E2E test RFS-1491 STG : Elm-PUF OZ_<br/></span>
+                <span class="reporter-method-output">COMPLETED<br/></span>
+                <span class="reporter-method-output">ffffffff5f1630736c982901d5795fc0<br/></span>
+                <span class="reporter-method-output">ffffffff5f15315c6c982901d5795647<br/></span>
+                <span class="reporter-method-output">89d35a0e-fe52-4176-94aa-226414a4ecc0-fd06cc9e-fec0-4121-ab8f-9cb397bf2c79<br/></span>
+                <span class="reporter-method-output">DNT-in use for E2E test RFS-1491 STG : Elm-PUF OZ_CITE model Tiny Test<br/></span>
+                <span class="reporter-method-output">IN_PROGRESS<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SampleDemoAPICollection</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sample_piLogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCourseId</span>
+                <span class="method-start">2667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getTaskList</span>
+                <span class="method-start">3542 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getLearnerSubmission</span>
+                <span class="method-start">5177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">modifySubmission</span>
+                <span class="method-start">5724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkUpdatedProjectSubmission</span>
+                <span class="method-start">6290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteSubmission</span>
+                <span class="method-start">6829 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
